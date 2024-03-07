@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Centered Card Example with Navigation</title>
+<style>
+  body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column; /* Ensure content flows vertically */
+    min-height: 100vh; /* Set minimum height to viewport height */
+    background-color: #f0f0f0; /* Set background color to gray */
+  }
+
+  nav {
+    background-color: #333; /* Set background color of navigation bar */
+    color: #fff; /* Set text color of navigation links */
+    padding: 10px;
+    text-align: center;
+  }
+
+  .container {
+    flex: 1; /* Make the container flex grow to take up remaining space */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff; /* Set background color to white */
+  }
+
+  .card {
+    background-color: #f0f0f0; /* Set background color of card */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a shadow effect */
+    text-align: center;
+  }
+
+  .card img {
+    width: 200px; /* Adjust image width as needed */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 50%; /* Make the image round */
+    margin-bottom: 10px;
+  }
+</style>
+</head>
+<body>
+
+<nav>
+  <!-- Navigation links here -->
+  Navigation Bar
+</nav>
+
+<div class="container">
+  <div class="card">
+    <img src="https://via.placeholder.com/200" alt="Random Picture">
+    <p>Random Picture</p>
+  </div>
+</div>
+
+</body>
+</html>

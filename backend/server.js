@@ -13,7 +13,7 @@ const PORT = process.env.PORT||5000
 app.use(express.json())
 app.use(cookie_parser())
 app.use(cors({
-   origin:'http://localhost:5173',
+   origin:'https://beautiful-brigadeiros-2948c7.netlify.app',
     credentials: true // Allow credentials (cookies) to be included in cross-origin requests
   }));
 app.get('/',(req,res)=>{

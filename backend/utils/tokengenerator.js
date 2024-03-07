@@ -7,7 +7,7 @@ const generatetoken = (userid, res) => {
         maxAge: 15 * 24 * 60 * 60 * 1000,
 
         //httpOnly: true,
-        domain: 'localhost', // Set the domain to localhost
+        domain: 'we-chat-backend-fkan.onrender.com', // Set the domain to localhost
         //path: '/', // Set the path to root
         sameSite: 'none',
         secure:true
